@@ -1,15 +1,12 @@
 ---
-layout: page
+layout: post
 title: Websocket Server in C
 excerpt: I will start my first post by describing a program that I wrote in C which implements a websocket server. The program accepts a websocket connection from client by sending a websocket acceptation key. If handshake is successful, server is then ready to receive message from client. The program implements the Websocket handshake protocole as described in <a href="https://tools.ietf.org/html/rfc6455">Request for Comments 6455</a>.
-tag: <a>c</a> websocket
+tags: websocket c base64
 ---
 
-
-
-{{page.tags}}
 <div class="page-header">
-  <h1>{{page.title}} <small>Subtext for header</small></h1>
+  <h1>{{page.title}} <small>Implementation</small></h1>
 </div>
 
 <div class="date"><span class="label label-danger" id="date"></span></div>

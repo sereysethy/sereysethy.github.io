@@ -19,10 +19,16 @@ title: Home | Sereysethy Touch
   	{% for post in paginator.posts %}
   	  <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
   	  <p>{{ post.excerpt }}</p>
+      <div id="tags">
+      <span class="label label-danger">Tagged:</span>
+        {% for tag in post.tags %}
+        <span class="label label-success">{{tag}}</span>&nbsp;
+        {% endfor %}
+      </div>
   	{% endfor %}    
     </div>
     <div class="col-lg-4">
-      Hello World
+      &nbsp;
     </div>
   </div>
 
