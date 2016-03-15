@@ -1,0 +1,4 @@
+#url: http://sereysethy.github.io
+gems: [jekyll-paginate]
+encoding: UTF-8
+paginate: 10
