@@ -2,3 +2,4 @@
 gems: [jekyll-paginate]
 encoding: UTF-8
 paginate: 10
+url: http://sereysethy.github.com
