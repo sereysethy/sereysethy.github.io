@@ -254,12 +254,7 @@ Here is the client code in `html`.
 You can get a complete code on my github.
 
 <br/>
-<script>
-  var day = moment("{{page.date}}");
-  $("#date").text(day.calendar());
-</script>
 <script id="dsq-count-scr" src="//sereysethy.disqus.com/count.js" async></script>
-
 <div id="disqus_thread"></div>
 <script>
 /**
