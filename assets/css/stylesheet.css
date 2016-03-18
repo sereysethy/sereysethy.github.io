@@ -42,15 +42,15 @@ pre {
 }
 
 .image-wrapper .description {
-	position: absolute; /* absolute position (so we can position it where we want)*/  
-    bottom: 0px; /* position will be on bottom */
-    width: 100%;  
-    /* styling bellow */  
+	position: absolute;
+    bottom: 0px;
+    width: 100%;
     background-color:black;  
     font-family: 'Abel';
     color: #ffffff;  
     opacity:0.6; /* transparency */
-    border-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
 }
 
 .image-wrapper .description p {
