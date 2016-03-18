@@ -9,8 +9,9 @@ body {
 	background-size: 1600px;
 	/*background-repeat: repeat-x;*/
 	font-family: 'Abel', sans-serif;
-
+	margin-bottom: 16px;
 }
+
 
 .jumbotron {
 	background-color: transparent;
@@ -29,4 +30,30 @@ pre {
 	background-color: #272822;
 	border: 1px solid #272822;
 	color: #ffffff;
+}
+
+.activity-heading {
+	text-align: center;
+}
+
+.image-wrapper {
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.image-wrapper .description {
+	position: absolute; /* absolute position (so we can position it where we want)*/  
+    bottom: 0px; /* position will be on bottom */
+    width: 100%;  
+    /* styling bellow */  
+    background-color:black;  
+    font-family: 'Abel';
+    color: #ffffff;  
+    opacity:0.6; /* transparency */
+    border-radius: 6px;
+}
+
+.image-wrapper .description p {
+	padding: 7px;  
+	margin: 0px;  
 }

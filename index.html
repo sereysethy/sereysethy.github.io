@@ -25,38 +25,63 @@ title: Home | Sereysethy Touch
         <span class="label label-success">{{tag}}</span>&nbsp;
         {% endfor %}
       </div>
-  	{% endfor %}    
+  	{% endfor %}
+
+    <!-- Pagination links -->
+    <ul class="pagination">
+      {% if paginator.previous_page %}
+        <li><a href="{{ paginator.previous_page_path }}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+      {% else %}
+        <li class="disabled"><span aria-hidden="true">&laquo;</span></li>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <li class="disabled"><a href="">{{ page }}</a></li>
+        {% elsif page == 1 %}
+          <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+        {% else %}
+          <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <li><a href="{{ paginator.next_page_path }}" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+      {% else %}
+        <li class="disabled"><span aria-hidden="true">&raquo;</span></li>
+      {% endif %}
+    </ul>
+    <!--span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span-->
     </div>
+    <!-- Right for Recent Activities -->
     <div class="col-lg-4">
-      &nbsp;
+      <div class="panel panel-primary">
+        <div class="panel-heading"><div class="activity-heading"><h4>Recent Activities</h4></div></div>
+        <div class="panel-body">
+          <div class="image-wrapper">
+            <img src="{{site.url}}/assets/img/activities/les_mangiers.jpg" class="img-responsive img-rounded" alt="Responsive image"/>
+            <div class="description">
+              <p>Weekend at Les Mangiers, Kampot. March 12, 2016.</p>
+            </div>
+          </div>
+
+          <div class="image-wrapper">
+            <img src="{{site.url}}/assets/img/activities/woman_day_qatar.jpg" class="img-responsive img-rounded" alt="Responsive image"/>
+            <div class="description">
+              <p>Join bike riding event with my wife, organized by Qatar Airway - Woman Right's day. March 8, 2016.</p>
+            </div>
+          </div>
+
+          <div class="image-wrapper">
+            <img src="{{site.url}}/assets/img/activities/bike_riding_ferry.jpg" class="img-responsive img-rounded" alt="Responsive image"/>
+            <div class="description">
+              <p>Gear up after leaving ferry crossing Mekong river - Woman Right's day. March 8, 2016.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-
-  <!-- Pagination links -->
-  <ul class="pagination">
-    {% if paginator.previous_page %}
-      <li><a href="{{ paginator.previous_page_path }}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
-    {% else %}
-      <li class="disabled"><span aria-hidden="true">&laquo;</span></li>
-    {% endif %}
-
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <li class="disabled"><a href="">{{ page }}</a></li>
-      {% elsif page == 1 %}
-        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
-      {% else %}
-        <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-      {% endif %}
-    {% endfor %}
-
-    {% if paginator.next_page %}
-      <li><a href="{{ paginator.next_page_path }}" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
-    {% else %}
-      <li class="disabled"><span aria-hidden="true">&raquo;</span></li>
-    {% endif %}
-  </ul>
-  <!--span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span-->
 </div><!-- /.container -->
 
 
