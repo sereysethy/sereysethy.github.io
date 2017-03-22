@@ -38,7 +38,7 @@ php artisan queue:retry 5
 
 where `5` is the id of failed job.
 
-Well after scraching my head and did some searches on the internet, I gave up and I started looking at Laravel framework source code how this command accept arguments `Illuminate/Queue/Console/RetryCommand.php`, it takes an argument `id` and an array of `value` which correspond to id of failed jobs.
+Well after scraching my head and doing some searches on the internet, I gave up and I started looking at Laravel framework source code how this command accepts arguments in `Illuminate/Queue/Console/RetryCommand.php`, it takes an argument `id` and an array of `value` which corresponds to id of failed jobs.
 
 {% highlight php %}
 <?php
@@ -54,7 +54,7 @@ Route::get('/foo', function () {
 ?>
 {% endhighlight %}
 
-If we want to retry all failed job, we pass value `all` to argument `id`
+If we want to retry all failed jobs, we pass value `all` to argument `id`
 
 {% highlight php %}
 <?php
