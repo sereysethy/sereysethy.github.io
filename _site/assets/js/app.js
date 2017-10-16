@@ -1,0 +1,1 @@
+$("#date").text(day.calendar());
