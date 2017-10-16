@@ -1,5 +1,5 @@
 url: https://sereysethy.github.io
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 encoding: UTF-8
 paginate: 10
 #url: http://sereysethy.github.io
