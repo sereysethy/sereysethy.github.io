@@ -42,9 +42,9 @@
             {{ content }}
             
             <div id="tags">
-              <span class="label label-danger">Tagged:</span>
+              <span class="label label-default">Tagged:</span>
               {% for tag in page.tags %}
-              <span class="label label-success">{{tag}}</span>&nbsp;
+              <a class="tagged" href="{{site.url}}/tag/{{tag | replace: " ", "-" }}.html">{{tag}}</a>&nbsp;
               {% endfor %}
             </div>
 

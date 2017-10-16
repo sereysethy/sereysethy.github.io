@@ -20,9 +20,9 @@ title: Home | Sereysethy Touch
   	  <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
   	  <p>{{ post.excerpt }}</p>
       <div id="tags">
-      <span class="label label-danger">Tagged:</span>
+        <span class="label label-default">Tagged:</span>
         {% for tag in post.tags %}
-        <span class="label label-success">{{tag}}</span>&nbsp;
+        <a class="tagged" href="{{site.url}}/tag/{{tag | replace: " ", "-" }}.html">{{tag}}</a>&nbsp;
         {% endfor %}
       </div>
   	{% endfor %}
@@ -83,7 +83,3 @@ title: Home | Sereysethy Touch
     </div>
   </div>
 </div><!-- /.container -->
-
-
-
-

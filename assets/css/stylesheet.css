@@ -60,3 +60,8 @@ pre {
 	padding: 7px;  
 	margin: 0px;  
 }
+
+.tagged {
+	font-size: 0.87em;
+	color: #777;
+}
