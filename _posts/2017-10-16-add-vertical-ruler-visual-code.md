@@ -3,6 +3,7 @@ layout: post
 title: How to add vertical ruler in Visual Code?
 date: 2017-10-16 08:27:01 +0700
 excerpt: I wanted to pass id of failed job to php artisan queue:retry [id], but the document of Laravel does not show me how, it only tells how to pass arguments, but how to pass values without arguments?
+category: blog
 tags: 
   - Visual Code
 ---
