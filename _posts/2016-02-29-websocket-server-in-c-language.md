@@ -2,6 +2,7 @@
 layout: post
 title: Websocket Server in C
 excerpt: I will start my first post by describing a program that I wrote in C which implements a websocket server. The program accepts a websocket connection from client by sending a websocket acceptation key. If handshake is successful, server is then ready to receive message from client. The program implements the Websocket handshake protocole as described in <a href="https://tools.ietf.org/html/rfc6455">Request for Comments 6455</a>.
+category: programming
 tags: websocket c base64
 ---
 

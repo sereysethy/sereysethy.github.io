@@ -3,6 +3,7 @@ layout: post
 title: How to pass id of failed job to Laravel queue:retry programmatically?
 date:   2017-03-15 18:49:01 +0700
 excerpt: I wanted to pass id of failed job to php artisan queue:retry [id], but the document of Laravel does not show me how, it only tells how to pass arguments, but how to pass values without arguments?
+category: programming
 tags: PHP Laravel5.3 Queue
 ---
 
