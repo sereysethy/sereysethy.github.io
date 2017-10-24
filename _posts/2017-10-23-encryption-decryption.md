@@ -8,7 +8,7 @@ categories:
 tags: 
   - Encryption
   - Decryption
-  - Asymetric encryption
+  - Asymmetric cryptography
 ---
 
 <div class="page-header">
@@ -18,7 +18,7 @@ tags:
 <div class="date"><span class="label label-danger" id="date"></span></div>
 
 The aim of this post is to show case who to do encryption and decryption using a paire of private
-and public RSA keys (asymetric encryption).
+and public RSA keys (asymmetric cryptography).
 
 #### Generate paire private and public keys using `openssl`
 
