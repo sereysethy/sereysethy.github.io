@@ -1,22 +1,17 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.4893335,
-    -0.14405508452768728
+    "Automated Risk Assessment of Shell-based attacks<br />19th International Conference on Risks and Security of Internet and Systems; TheCamp, Aix-en-Provence, FRANCE",
+    43.4986978,
+    5.3421345
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "Gestion de la confiance dans un environnement IoT pour des infrastructures essentielles<br />Ecole d'\u00e9t\u00e9 2024, Cybers\u00e9curit\u00e9; Universit\u00e9 de Sherbrooke, Canada",
+    45.3771246,
+    -71.9287373
   ],
   [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
-  ],
-  [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7792588,
-    -122.4193286
+    "An Adaptive Self-guarded honeypot<br />CyberExcellence Seminar; Online, Belgium",
+    51.0243859,
+    4.4817803
   ]
 ];
