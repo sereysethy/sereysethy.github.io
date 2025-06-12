@@ -77,19 +77,19 @@ Skills
 * Programming languages: C, Python, PHP, Ruby and Java
 * Scripting languages: bash and perl
 * Web technologies: 
-  * [Flask](https://flask.palletsprojects.com/en/stable/)
+  * Python: [Flask](https://flask.palletsprojects.com/en/stable/) and [FastAPI](https://fastapi.tiangolo.com/)
   * [React](https://react.dev/)
   * [EmberJS](https://emberjs.com/)
   * [Laravel PHP](https://laravel.com/)
   * [CakePHP](https://cakephp.org/)
 * Web semantic ontology: XML Schema RDF(S) / OWL / SPARQL 
-* Web server: [Nginx](https://nginx.org/), [Apache](https://httpd.apache.org/) and [nodejs](https://nodejs.org)
+* Web server: [Nginx](https://nginx.org/), [Apache](https://httpd.apache.org/), [node.js](https://nodejs.org) and [gunicorn](https://gunicorn.org/)
 * SQL Databases: MySQL, Postgres and Oracle (10g and 12g)
 * NoSQL: [MongoDB](https://www.mongodb.com/) and [CouchDB](https://couchdb.apache.org/)
 * System administrations: Linux, [Proxmox](https://www.proxmox.com/en/), pfSense firewall, Samba, OpenLDAP
-* Operating systems: Linux-based systems (CentOS, Debian, Ubuntu, Pi OS), MacOS, and Windows
+* Operating systems: Linux-based systems (CentOS, Debian, Ubuntu, PiOS), MacOS, and Windows
 * Software development and deployment: Docker
-* Messaaging technologies: MQTT, RabbitMQ
+* Messaging technologies: MQTT, RabbitMQ (AMQP) and Redis
 
 Recent Publications
 ======

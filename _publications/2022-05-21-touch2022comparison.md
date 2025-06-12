@@ -6,7 +6,7 @@ permalink: /publication/2022-05-21-a-comparision-of-an-adaptive-self-guarded-hon
 excerpt: 'In this paper, we compare Asgard and its variant Midgard with two conventional SSH honeypots: Cowrie and a real Linux system. The goal of the paper is (1) to demonstrate the effectiveness of the adaptive honeypot that can learn to compromise between collecting attack data and keeping the honeypot safe, and (2) the benefit of coupling of the environment state and the action in reinforcement learning to define the reward function to effectively learn its objectives.'
 date: 2022-05-21
 venue: 'Applied Science'
-paperurl: 'https://www.mdpi.com/2076-3417/12/10/5224'
+paperurl: 'https://doi.org/10.3390/app12105224'
 citation: 'Touch, S., & Colin, J. N. (2022). A comparison of an adaptive self-guarded honeypot with conventional honeypots. <i>Applied Sciences</i>, 12(10), 5224.'
 ---
 
