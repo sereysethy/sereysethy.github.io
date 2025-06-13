@@ -3,7 +3,7 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
@@ -24,12 +24,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Sereysethy Touch"
-  pronouns         : # example: "she/her"  
+  pronouns         : # example: "she/her"
   bio              : "PhD in Computer Science, specialized in Cybersecurity"
   location         : #"Earth"
   employer         : "University of Namur"
   uri              : # URL
-  email            : "sereysethy.touch@unamur.be" 
+  email            : "sereysethy.touch@unamur.be"
 
   # Academic websites
   academia         : # URL
@@ -47,8 +47,8 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "sereysethy"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
   bluesky          : #"bsky.app" # Replace this with you Bluesky username
@@ -81,11 +81,11 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+    title: 'Journal Articles'
   chapters:
     title: 'Book chapters'
+  conferences:
+    title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
