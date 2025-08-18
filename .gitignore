@@ -18,3 +18,4 @@ vendor/
 
 # Me
 .DS_Store
+.ruby-version
