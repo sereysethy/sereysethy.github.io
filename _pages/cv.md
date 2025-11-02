@@ -67,6 +67,7 @@ including but not limited to:
 
 Skills
 ======
+* Information security: ISO 27001:2022 foundation
 * Security tools: Nmap, Metasploit, Wireshark
 * ML technologies: 
   * [Numpy](https://numpy.org/)
@@ -88,6 +89,7 @@ Skills
 * NoSQL: [MongoDB](https://www.mongodb.com/) and [CouchDB](https://couchdb.apache.org/)
 * System administrations: Linux, [Proxmox](https://www.proxmox.com/en/), pfSense firewall, Samba, OpenLDAP
 * Operating systems: Linux-based systems (CentOS, Debian, Ubuntu, PiOS), MacOS, and Windows
+* Cloud services: AWS, Google Cloud
 * Software development and deployment: Docker
 * Messaging technologies: MQTT, RabbitMQ (AMQP) and Redis
 

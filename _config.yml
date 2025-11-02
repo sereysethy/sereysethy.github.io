@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "Sereysethy Touch"
   pronouns         : # example: "she/her"
-  bio              : "PhD in Computer Science, specialized in Cybersecurity"
+  bio              : "PhD @UNamur in Computer Science, specialized in Cyber-security"
   location         : #"Earth"
   employer         : "University of Namur"
   uri              : # URL
-  email            : "sereysethy.touch@unamur.be"
+  email            : "touch.sereysethy@gmail.com"
 
   # Academic websites
   academia         : # URL
@@ -222,6 +222,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  services:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: false
     permalink: /:collection/:path/
@@ -263,6 +266,15 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _services
+  - scope:
+      path: ""
+      type: services
     values:
       layout: single
       author_profile: true
