@@ -2,21 +2,22 @@
 permalink: /
 title: "Short Bio"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
 ### About Me
 
-I'm a cybersecurity professional specializing in intelligent defense mechanisms and adaptive security systems. My research background includes developing sophisticated honeypot systems that dynamically learn and respond to threat actors—experience that gives me unique insights into attacker behavior and proactive defense strategies.
+I'm a cybersecurity professional specializing in intelligent defense mechanisms and adaptive security systems. My research focuses on honeypot systems that dynamically learn and respond to threat actors—work that's given me deep insight into attacker behavior and proactive defense strategies.
 
-I recently completed a postdoctoral research position at the Faculty of Computer Science, University of Namur, where I focused on innovative approaches to cybersecurity challenges. Now I'm seeking new opportunities where I can apply this expertise in practical, impactful ways.
+I recently completed a postdoctoral research position at the University of Namur's Faculty of Computer Science, where I documented and released Asgard, an adaptive honeypot system built on my PhD research. The software is open-source on [GitHub](https://github.com/sereysethy/asgard).
 
-**I'm particularly interested in roles involving:**
-* Security consulting and architecture
-* Functional analysis and security design
+I'm now looking for roles in threat intelligence or applied security research where I can put this expertise to practical use — particularly opportunities involving:
+
 * Threat intelligence and adaptive defense systems
+* Functional analysis and security design
+* Security consulting in risk assessment
 
 If you'd like to discuss potential opportunities or collaborations, feel free to reach out—I'd be happy to connect.
 
