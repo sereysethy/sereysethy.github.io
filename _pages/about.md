@@ -17,7 +17,7 @@ I'm now looking for roles in threat intelligence or applied security research wh
 
 * Threat intelligence and adaptive defense systems
 * Functional analysis and security design
-* Security consulting in risk assessment
+* Security consulting in information risk management
 
 If you'd like to discuss potential opportunities or collaborations, feel free to reach out—I'd be happy to connect.
 
