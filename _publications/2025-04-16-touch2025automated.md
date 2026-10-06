@@ -5,7 +5,7 @@ category: chapters
 permalink: /publication/2025-04-16-automated-risk-assessment-of-shell-based-attacks-using-a-llm
 excerpt: 'We propose a novel approach to assess the risk of shell commands by classifying them into five risk levels ranging from very low risk (R0) to extremely high risk (R4), evaluating the potential adversarial impact of executing them on a system. The proposed approach is then used to build a classification model using a large-language model (LLM), RoBERTa, to automatically assess commands based on their defined risk levels.'
 date: 2025-04-16
-venue: 'LNCS, vol 15456. Springer, Cham'
+venue: '19th International Conference, CRiSIS 2024, Aix-en-Provence, France, November 26-28, 2024'
 paperurl: 'https://doi.org/10.1007/978-3-031-89350-6_11'
 citation: 'Touch, S., Fink, J., Colin, JN. (2025). Automated Risk Assessment of Shell-Based Attacks Using a LLM. In: Collart-Dutilleul, S., Ouchani, S., Cuppens, N., Cuppens, F. (eds) Risks and Security of Internet and Systems. CRiSIS 2024. Lecture Notes in Computer Science, vol 15456. Springer, Cham.'
 ---
