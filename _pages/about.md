@@ -7,19 +7,29 @@ redirect_from:
   - /about.html
 ---
 
-### About Me
+Doctor of Philosophy @UNamur in Computer Science, specialized in Cyber-security
 
-I'm a cybersecurity professional specializing in intelligent defense mechanisms and adaptive security systems. My research focuses on honeypot systems that dynamically learn and respond to threat actors—work that's given me deep insight into attacker behavior and proactive defense strategies.
+#### What's new ?
+Recently certified [ISO/IEC 27001:2022 Foundation](https://www.credly.com/badges/96a7d8b3-965f-44db-9de2-8f2bd8c17c7a/public_url), October 2026 <a href="https://www.credly.com/badges/96a7d8b3-965f-44db-9de2-8f2bd8c17c7a/public_url"><img src="/images/iso-iec-27001-2022-foundation.png" alt="ISO/IEC 27001:2022 Foundation" width="30"/>
 
-I recently completed a postdoctoral research position at the University of Namur's Faculty of Computer Science, where I documented and released Asgard, an adaptive honeypot system built on my PhD research. The software is open-source on [GitHub](https://github.com/sereysethy/asgard).
+### About me
 
-I'm now looking for roles in threat intelligence or applied security research where I can put this expertise to practical use — particularly opportunities involving:
+I'm a cybersecurity professional specializing in adaptive defense. 
+My research centers on intelligent honeypots that learn from attacker behavior and adjust their responses in real time, 
+while logging every interaction to reveal adversary tactics, techniques, and procedures (TTPs).
+
+I recently completed a postdoctoral research position at the University of Namur's Faculty of Computer Science, 
+where I documented and released Asgard, an adaptive honeypot system built on my PhD research. 
+The software is open-source on [GitHub](https://github.com/sereysethy/asgard).
+
+I'm now looking for roles in threat intelligence or applied security research 
+where I can put this expertise to practical use — particularly opportunities involving:
 
 * Threat intelligence and adaptive defense systems
 * Functional analysis and security design
 * Security consulting in information risk management
 
-If you'd like to discuss potential opportunities or collaborations, feel free to reach out—I'd be happy to connect.
+If you'd like to discuss potential opportunities or collaborations, feel free to reach out - I'd be happy to connect.
 
 ---
 

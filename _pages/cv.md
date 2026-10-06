@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,10 +11,16 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Computer Science, UNamur, Belgium, 2025
-  * Title: <i>ASGARD: An Abstract Model for Adaptive Self-guarded honeypots</i>
-* Master of research in Computer Science, INSA-Lyon, France, 2006
-* Engineer in Computer Science, ITC, Cambodia, 2003
+* Ph.D in Computer Science, [UNamur](https://www.unamur.be/en), Belgium, 2025
+  * Title: <i>[ASGARD: An Abstract Model for Adaptive Self-guarded honeypots](https://researchportal.unamur.be/en/studentTheses/asgard-an-abstract-model-for-adaptive-self-guarded-honeypots/)</i>
+  * Suppervised by Prof. [Jean-Noël Colin](https://researchportal.unamur.be/en/persons/jncolin/)
+* Master of research in Computer Science, [INSA-Lyon](https://www.insa-lyon.fr/), France, 2006
+* Exchange student, Department of Computer Science, [INSA-Lyon](https://www.insa-lyon.fr/), France, 2002-2003
+* Engineer in Computer Science, [ITC](https://itc.edu.kh/), Cambodia, 2003
+
+Professional certificates
+=========
+* Certified [ISO/IEC 27001:2022 Foundation](https://www.credly.com/badges/96a7d8b3-965f-44db-9de2-8f2bd8c17c7a/public_url), October 2026 <a href="https://www.credly.com/badges/96a7d8b3-965f-44db-9de2-8f2bd8c17c7a/public_url"><img src="/images/iso-iec-27001-2022-foundation.png" alt="ISO/IEC 27001:2022 Foundation" width="50"/></a>
 
 Work experience
 ======
