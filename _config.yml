@@ -22,7 +22,7 @@ repository               : "https://github.com/sereysethy/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "stouch.jpg"
   name             : "Sereysethy Touch"
   pronouns         : # example: "she/her"
   bio              : "PhD @UNamur in Computer Science, specialized in Cyber-security"
