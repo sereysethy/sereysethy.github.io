@@ -1,5 +1,5 @@
 ---
-title: "Automated Risk Assessment of Shell-based attacks"
+title: "Automated Risk Assessment of Shell-Based Attacks Using a LLM"
 collection: talks
 type: "Conference proceedings talk"
 permalink: /talks/2024-11-26-28-CRiSIS
