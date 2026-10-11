@@ -9,8 +9,7 @@ tags:
   - Asymmetric cryptography
 ---
 
-The aim of this post is to show case who to do encryption and decryption using a paire of private
-and public RSA keys (asymmetric cryptography).
+This post shows how to use OpenSSL to encrypt and decrypt data with an RSA key pair (asymmetric cryptography).
 
 #### Generate paire private and public keys using `openssl`
 
