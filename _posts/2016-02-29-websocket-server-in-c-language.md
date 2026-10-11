@@ -2,24 +2,23 @@
 title: Websocket Server in C
 date: 2016-02-29
 category: programming
-tags: 
-  - websocket 
-  - c 
+tags:
+  - websocket
+  - c
   - base64
 ---
 
-I will start my first post by describing a program that I wrote in C which implements a websocket server.
-The program accepts a websocket connection from client by sending a websocket acceptation key.
+I'm starting my first post by describing a program I wrote in C that implements a WebSocket server.
 
-If handshake is successful, server is then ready to receive message from client. The program implements the Websocket handshake protocole as described in [Request for Comments 6455](https://tools.ietf.org/html/rfc6455).
+The server accepts a WebSocket connection by completing the opening handshake: it replies with a `Sec-WebSocket-Accept` value derived from the client's `Sec-WebSocket-Key`. Once the handshake succeeds, the server is ready to receive messages from the client. The handshake follows the protocol described in [RFC 6455](https://tools.ietf.org/html/rfc6455).
 
-The program performs following tasks:
+The program performs the following tasks:
 
-- Start a TCP socket server
-- Waiting for a connection
-- Receive a Websocket handshake message
-- Send a Websocket handshake message to client
-- Start receiving messages sent and dump them to stdout
+- Starts a TCP socket server
+- Waits for a connection
+- Receives a WebSocket handshake request
+- Sends a WebSocket handshake response to the client
+- Starts receiving messages sent by the client and dumps them to stdout
 
 I took an example of a TCP server from <a href="https://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15213-f99/www/">CS 213: Introduction to Computer Systems, Fall 1999</a>.
 
@@ -58,7 +57,7 @@ To construct the `Sec-WebSocket-Accept` value, we need to perform the following:
 - Encode base64 of the encrypted string
 
 
-```c 
+```c
 char * encrypt_message(char * msg, char * digestname) {
   EVP_MD_CTX *mdctx;
   const EVP_MD *md;
@@ -82,10 +81,10 @@ char * encrypt_message(char * msg, char * digestname) {
   EVP_DigestFinal_ex(mdctx, md_value, &md_len);
   EVP_MD_CTX_destroy(mdctx);
 
-  /* malloc of md_len */ 
+  /* malloc of md_len */
   encoded = malloc(md_len);
   memcpy(encoded, md_value, md_len);
-  
+
   /* Call this once before exit. */
   EVP_cleanup();
 
@@ -102,7 +101,7 @@ const char table[64] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',
                         'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f',
                         'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
                         'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
-                        'w', 'x', 'y', 'z', '0', '1', '2', '3', 
+                        'w', 'x', 'y', 'z', '0', '1', '2', '3',
                         '4', '5', '6', '7', '8', '9', '+', '/'};
 
 int base64encode(char* encoded, const unsigned char * str, int length) {
@@ -168,7 +167,7 @@ int read_data(int fd) {
   /* read payload length */
   length = buf[1] & (0x7F);
   printf("Initial payload length: %llu\n", length);
- 
+
   /* check the payload length */
   if (length  == 126) {
     n = read(fd, buf, 2);
@@ -208,7 +207,7 @@ int read_data(int fd) {
       n = read(fd, buf, tmp_length);
       if (n < 0) return n;
     } else {
-      n = read(fd, buf, BUFSIZE);  
+      n = read(fd, buf, BUFSIZE);
     }
 
     for (i = 0; i < n; i++) {
@@ -218,10 +217,10 @@ int read_data(int fd) {
     }
 
     tmp_length = tmp_length - n;
-    
+
     if (j == length) break;
   }
-  
+
   printf("\nEnd of transmitted message\n");
   return length;
 }
@@ -244,5 +243,3 @@ Here is the client code in `html`.
 </body>
 </html>
 ```
-
-You can get a complete code on my github.
