@@ -31,8 +31,8 @@ Work experience
     * [Asgard honeypot system](https://github.com/sereysethy/asgard)
     * [Command Risk Assessment](https://github.com/sereysethy/cmd_risk_assessment)
   * Docker Images:
-    * https://hub.docker.com/repository/docker/stouch/asgard
-    * https://hub.docker.com/repository/docker/stouch/cmd_risk_assessment
+    * [Asgard honeypot system](https://hub.docker.com/r/stouch/asgard)
+    * [Command Risk Assessment](https://hub.docker.com/r/stouch/cmd_risk_assessment)
   * Publications:
     * Touch, S., Colin, JN. (2026). An Adaptive Self-guarded and Risk-Aware Honeypot Using DRL. In: Laborde, R., et al. Computer Security. *ESORICS 2025 International Workshops*. ESORICS 2025. Lecture Notes in Computer Science, vol 16232. Springer, Cham. [https://doi.org/10.1007/978-3-032-16092-8_11](https://doi.org/10.1007/978-3-032-16092-8_11)
     * Touch, S., Fink, J., Colin, JN. (2025). Automated Risk Assessment of Shell-Based Attacks Using a LLM. In: Collart-Dutilleul, S., Ouchani, S., Cuppens, N., Cuppens, F. (eds) *Risks and Security of Internet and Systems*. CRiSIS 2024. Lecture Notes in Computer Science, vol 15456. Springer, Cham. [https://doi.org/10.1007/978-3-031-89350-6_11](https://doi.org/10.1007/978-3-031-89350-6_11)
@@ -82,31 +82,33 @@ including but not limited to:
 
 Skills
 ======
-* Information security: ISO 27001:2022 foundation
-* Security tools: Nmap, Metasploit, Wireshark
+
+* Security tools: Nmap, Metasploit, Wireshark, Cowrie
+* Risk management and analysis: EBIOS Risk Manager, MITRE ATT&CK, CIS Controls, NIST CSF, ISO/IEC 27001, ISO/IEC 27002
+* Network and system administration: Linux, Proxmox, pfSense firewall, Samba, OpenLDAP
+* Operating systems: Linux (CentOS, Debian, Ubuntu, Raspberry Pi OS), macOS, Windows
+* Log analytics: Elastic Stack
+* Programming languages: C, Python, PHP, Ruby, Java
+* Scripting languages: bash and perl
 * ML technologies:
   * [Numpy](https://numpy.org/)
   * [PyTorch](https://pytorch.org/)
-  * [Tranformers](https://huggingface.co/docs/transformers/index)
+  * [Hugging Face Transformers](https://huggingface.co/docs/transformers/index)
   * [scikit-learn](https://scikit-learn.org/stable/)
-  * RL [Gymnasium environment](https://gymnasium.farama.org/)
-* Programming languages: C, Python, PHP, Ruby and Java
-* Scripting languages: bash and perl
+  * [Gymnasium](https://gymnasium.farama.org/) (reinforcement learning)
+* Software development and deployment tools: Docker, Git
 * Web technologies:
+  * REST API
   * Python: [Flask](https://flask.palletsprojects.com/en/stable/) and [FastAPI](https://fastapi.tiangolo.com/)
   * [React](https://react.dev/)
   * [EmberJS](https://emberjs.com/)
   * [Laravel PHP](https://laravel.com/)
   * [CakePHP](https://cakephp.org/)
-* Web semantic ontology: XML Schema RDF(S) / OWL / SPARQL
 * Web server: [Nginx](https://nginx.org/), [Apache](https://httpd.apache.org/), [node.js](https://nodejs.org) and [gunicorn](https://gunicorn.org/)
-* SQL Databases: MySQL, Postgres and Oracle (10g and 12g)
-* NoSQL: [MongoDB](https://www.mongodb.com/) and [CouchDB](https://couchdb.apache.org/)
-* System administrations: Linux, [Proxmox](https://www.proxmox.com/en/), pfSense firewall, Samba, OpenLDAP
-* Operating systems: Linux-based systems (CentOS, Debian, Ubuntu, PiOS), MacOS, and Windows
-* Cloud services: AWS, Google Cloud
-* Software development and deployment: Docker
-* Messaging technologies: MQTT, RabbitMQ (AMQP) and Redis
+* Cloud platforms: Amazon Web Services (AWS), Google Cloud Platform (GCP), Vultr
+* Databases: MySQL/MariaDB, PostgreSQL, Oracle, MongoDB, CouchDB, Redis
+* Messaging technologies: MQTT, RabbitMQ (AMQP)
+* Web semantic ontology: XML Schema RDF(S) / OWL / SPARQL
 
 Recent Publications
 ======
