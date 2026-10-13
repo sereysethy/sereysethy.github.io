@@ -10,7 +10,13 @@ redirect_from:
 Doctor of Philosophy @UNamur in Computer Science, specialized in Cyber-security
 
 #### What's new ?
-Recently certified [ISO/IEC 27001:2022 Foundation](https://www.credly.com/badges/96a7d8b3-965f-44db-9de2-8f2bd8c17c7a/public_url), October 2026 <a href="https://www.credly.com/badges/96a7d8b3-965f-44db-9de2-8f2bd8c17c7a/public_url"><img src="/images/iso-iec-27001-2022-foundation.png" alt="ISO/IEC 27001:2022 Foundation" width="30"/>
+
+* {% assign latest = site.posts.first %}
+<a href="{{ latest.url | relative_url }}">{{ latest.title }}</a>
+
+* Recently certified [ISO/IEC 27001:2022 Foundation](https://www.credly.com/badges/96a7d8b3-965f-44db-9de2-8f2bd8c17c7a/public_url), October 2026 <a href="https://www.credly.com/badges/96a7d8b3-965f-44db-9de2-8f2bd8c17c7a/public_url"><img src="/images/iso-iec-27001-2022-foundation.png" alt="ISO/IEC 27001:2022 Foundation" width="30"/>
+
+---
 
 ### About me
 

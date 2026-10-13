@@ -4,6 +4,7 @@ date: 2017-10-16 08:27:01 +0700
 category: editor
 tags: 
   - Visual Code
+published: false
 ---
 
 To add vertical line to Visual Code on Mac (it should work the same way on Linux/
